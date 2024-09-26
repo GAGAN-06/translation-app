@@ -20,7 +20,7 @@ const App = () => {
 
     try {
       const response = await fetch(
-        "https://translation-app-912s.onrender.com/api/translate",
+        "http://localhost:5000/translate",
         {
           method: "POST",
           headers: {
